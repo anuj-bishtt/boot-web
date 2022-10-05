@@ -53,10 +53,9 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a
-{
-text-decoration: none;
-box-shadow: 0 0 0 4px #cde1f8;
+.box-shadow-a {
+  text-decoration: none;
+  box-shadow: 0 0 0 4px #cde1f8;
 }
 
 .display-5 {
@@ -1298,7 +1297,7 @@ box-shadow: 0 0 0 4px #cde1f8;
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 
 /*--------------------------------------------------------------
