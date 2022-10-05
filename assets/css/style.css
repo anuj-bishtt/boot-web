@@ -53,10 +53,10 @@ a:hover {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-.box-shadow-a,
-.button:hover {
-  text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+.box-shadow-a
+{
+text-decoration: none;
+box-shadow: 0 0 0 4px #cde1f8;
 }
 
 .display-5 {
@@ -1209,7 +1209,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit] {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,26,89,1) 35%, rgba(0,212,255,1) 100%);
+  background: radial-gradient(#688A41, #3E3D32);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1217,7 +1217,8 @@ a:hover {
 }
 
 .php-email-form button[type=submit]:hover {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,189,26,1) 35%, rgba(0,212,255,1) 100%);
+  background: radial-gradient(#3E3D32, #688A41);
+  box-shadow: 5px 5px #000;
 }
 
 @-webkit-keyframes animate-loading {
