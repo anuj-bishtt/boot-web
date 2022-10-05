@@ -53,9 +53,19 @@
         transition: box-shadow .3s;
     }
 
-    .return:hover{
+    .return:hover {
         background-color: #78934f;
-        box-shadow: 0 0 11px rgba(0, 0, 0, 0.968); 
+        box-shadow: 0 0 11px rgba(0, 0, 0, 0.968);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .card{
+            display: flex;
+            flex-direction: column;
+            margin:0 auto;
+            width: 60vw;
+            /* height: 80vh; */
+        }
     }
 </style>
 
